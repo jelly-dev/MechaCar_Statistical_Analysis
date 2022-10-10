@@ -27,7 +27,7 @@ total_summary <-  suspen_coil %>% summarize(Mean=mean(PSI),Median=median(PSI),Va
 # Create lot summary df, using group_by() & summarize()
 lot_summary <- suspen_coil %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI),Median=median(PSI),Variance=var(PSI),SD=sd(PSI), .groups = 'keep')
 
-  
+
 ## Deliverable 3
 
 # t-test across all manufacturing lots against the population mean = 1500 PSI

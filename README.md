@@ -13,11 +13,11 @@
 ## Linear Regression to Predict MPG
 - Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
     - p-value of coefficients should be compared to alpha = .05 level of significance to verify if statistically significant.
-        - mpg: 0 < .05 significant, <em>non-random</em>
-        - vehicle length: 0 < .05, significant, <em>non-random</em>
+        - mpg: 0 < .05 significant, <b>non-random</b>
+        - vehicle length: 0 < .05, significant, <b>non-random</b>
         - vehicle weight: .08 > .05 not significant, random
         - spoiler angle: .31 > .05 not significant, random
-        - ground clearance: 0 > .05 significant, <em>non-random</em>
+        - ground clearance: 0 > .05 significant, <b>non-random</b>
         - AWD: .19>=.05 not statistically significant, random amount of variance
 
 - Is the slope of the linear model considered to be zero? Why or why not?
@@ -27,22 +27,23 @@
     - The r-squared value is .7149, meaning the dataset is effective and shows a strong correlation. However, there may be other unmeasured variables that play into the mpg that are needed for the most effective prediction.
 
 ## Summary Statistics on Suspension Coils
-- Total Manufacturing Lot Summary
 
-- Summary per Manufacturing Lot
+### Total Manufacturing Lot Summary
+
+### Summary per Manufacturing Lot
 
 - The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
 ## T-Tests on Suspension Coils
 - briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
 
-- T-test for All Lots
+### T-test for All Lots
 
-- T-test for Lot 1
+### T-test for Lot 1
 
-- T-test for Lot 2
+### T-test for Lot 2
 
-- T-test for Lot 3
+### T-test for Lot 3
 
 ## Study Design: MechaCar vs Competition
 - Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
