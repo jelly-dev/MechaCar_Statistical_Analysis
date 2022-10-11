@@ -51,14 +51,15 @@
     - Total manufacturing lot variance is 62, which is within the design specification of staying under 100 PSI. However, when reviewing the data by each lot, Lot 3 is found to be a large contributing factor to high variance. Lot 3 shows a variance of 170 which is too high to meet design specifications.
 
 ## T-Tests on Suspension Coils
-    - The majority of lots show a normal distribution. There is not sufficient evidence to reject the null hypothesis, showing that the two means are statistically similar.
+
+- The majority of lots show a normal distribution. There is not sufficient evidence to reject the null hypothesis, showing that the two means are statistically similar.
 
 ### T-test for All Lots
 ![T-test all lots](/images/t_test_all.png "T-test all lots")
 
-    - p-value = .6028, alpha = .05
+- p-value = .6028, alpha = .05
 
-    - The total manufacturing lot is not statistically significant from the normal distribution and normality can be assumed. The mean falls within the 95% confidence interval.
+- The total manufacturing lot is not statistically significant from the normal distribution and normality can be assumed. The mean falls within the 95% confidence interval.
 
 ### T-test for Lot 1
 
