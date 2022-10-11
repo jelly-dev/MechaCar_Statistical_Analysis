@@ -13,7 +13,7 @@
 
 ## Linear Regression to Predict MPG
 
-    ![Linear regression model](/images/linearRegression.png "Linear regression model")
+![Linear regression model](/images/linearRegression.png "Linear regression model")
 
 - Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 
@@ -40,11 +40,11 @@
 
 ### Total Manufacturing Lot Summary
 
-    ![Total lot summary](/images/summary_all_lots.png "Total lot summary")
+![Total lot summary](/images/summary_all_lots.png "Total lot summary")
 
 ### Summary per Manufacturing Lot
 
-    ![Each lot summary](/images/summary_each_lot.png "Each lot summary")
+![Each lot summary](/images/summary_each_lot.png "Each lot summary")
 
 - The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
@@ -54,7 +54,7 @@
     - The majority of lots show a normal distribution. There is not sufficient evidence to reject the null hypothesis, showing that the two means are statistically similar.
 
 ### T-test for All Lots
-    ![T-test all lots](/images/t_test_all.png "T-test all lots")
+![T-test all lots](/images/t_test_all.png "T-test all lots")
 
     - p-value = .6028, alpha = .05
 
@@ -62,7 +62,7 @@
 
 ### T-test for Lot 1
 
-    ![T-test lot 1](/images/t_test_1.png "T-test lot 1")
+![T-test lot 1](/images/t_test_1.png "T-test lot 1")
 
     -  p-value = 1, alpha = .05
 
@@ -70,7 +70,7 @@
 
 ### T-test for Lot 2
 
-    ![T-test lot 2](/images/t_test_2.png "T-test lot 2")
+![T-test lot 2](/images/t_test_2.png "T-test lot 2")
 
     - p-value = .6072, alpha = .05
 
@@ -78,7 +78,7 @@
 
 ### T-test for Lot 3
 
-    ![T-test lot 3](/images/t_test_3.png "T-test lot 3")
+![T-test lot 3](/images/t_test_3.png "T-test lot 3")
 
     - p-value = .04168, alpha = .05
 
