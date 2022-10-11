@@ -64,22 +64,22 @@
 
 ![T-test lot 1](/images/t_test_1.png "T-test lot 1")
 
-    -  p-value = 1, alpha = .05
+- p-value = 1, alpha = .05
 
-    - Lot 1 is not statistically significant from the normal distribution and normality can be assumed. The mean falls within the 95% confidence interval.
+- Lot 1 is not statistically significant from the normal distribution and normality can be assumed. The mean falls within the 95% confidence interval.
 
 ### T-test for Lot 2
 
 ![T-test lot 2](/images/t_test_2.png "T-test lot 2")
 
-    - p-value = .6072, alpha = .05
+- p-value = .6072, alpha = .05
 
-    - Lot 2 is not statistically significant from the normal distribution  and normality can be assumed. The mean falls within the 95% confidence interval.
+- Lot 2 is not statistically significant from the normal distribution  and normality can be assumed. The mean falls within the 95% confidence interval.
 
 ### T-test for Lot 3
 
 ![T-test lot 3](/images/t_test_3.png "T-test lot 3")
 
-    - p-value = .04168, alpha = .05
+- p-value = .04168, alpha = .05
 
-    - Lot 3 is statistically significant from the normal distribution and normality cannot be assumed. However, the mean falls within the 95% confidence interval.
+- Lot 3 is statistically significant from the normal distribution and normality cannot be assumed. However, the mean falls within the 95% confidence interval.
